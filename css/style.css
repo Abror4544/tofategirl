@@ -738,6 +738,7 @@ section.tutorial .tutorial-imgblock img {
 
 section.tutorial .tutorial-imgblock img.mobile {
   display: none;
+  height: 140vw;
 }
 
 section.tutorial .tutorial-imgblock.left .tutorial__number-block {
