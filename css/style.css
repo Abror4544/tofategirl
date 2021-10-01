@@ -738,7 +738,6 @@ section.tutorial .tutorial-imgblock img {
 
 section.tutorial .tutorial-imgblock img.mobile {
   display: none;
-  height: 140vw;
 }
 
 section.tutorial .tutorial-imgblock.left .tutorial__number-block {
@@ -1857,9 +1856,12 @@ footer .footer-additional .inc {
     height: 140vw;
   }
 
-  section.tutorial .tutorial-imgblock.left.last img.mobile,
+  section.tutorial .tutorial-imgblock.left.last img.mobile{
+    height: 57vw;
+  }
+  
   section.tutorial .tutorial-imgblock.right.last img.mobile{
-    height: auto;
+    height: 43vw;
   }
   
   section.tutorial .tutorial-imgblock.left.last .tutorial__number-block {
