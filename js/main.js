@@ -2,6 +2,9 @@ $(function () {
   var swiper = new Swiper(".screenSwiper", {
     loop: false,
     spaceBetween: 21,
+    pagination: {
+      el: ".swiper-pagination",
+    },
     breakpoints: {
       280: {
         slidesPerView: 2.8,
