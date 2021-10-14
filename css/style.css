@@ -516,6 +516,9 @@ section.profit .profit__text.mini {
   font-size: 24px;
 }
 
+section.profit .profit__text.desc {
+  margin-top: 30px;
+}
 section.profit .profit__text.center {
   width: 100%;
   text-align: center;
@@ -1635,12 +1638,19 @@ footer .footer-additional .inc {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
+            flex-wrap: wrap;
   }
 
   section.profit .profit-item.mobile-absolute .profit__text {
     font-size: 24px;
-    width: 90%;
+    width: 60%;
     margin-left: 17px;
+  }
+
+  section.profit .profit__text.desc{
+    font-size: 18px !important;
+    margin-left: 0 !important;
+    width: 100% !important;
   }
 
   section.profit .profit-item.mobile-absolute .profit__text span{
