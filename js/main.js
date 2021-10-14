@@ -7,10 +7,10 @@ $(function () {
         slidesPerView: 2.8,
       },
       767: {
-        slidesPerView: 3,
+        slidesPerView: 4,
       },
       991: {
-        slidesPerView: 7,
+        slidesPerView: 8,
       }
     }
   });
