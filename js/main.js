@@ -15,7 +15,7 @@ $(function () {
     }
   });
 
-
+/* 
   let target = document.querySelectorAll(".footer-menu__title");
   let menu = document.querySelectorAll(".footer-menu__list");
 
@@ -27,7 +27,7 @@ $(function () {
         menu[i].classList.add("active");
       }
     });
-  }
+  } */
 
   $(".bar").click(() => {
     $(".header-menu").css("left", "0");
