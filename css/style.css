@@ -683,8 +683,14 @@ section.tutorial .tutorial__slogan {
 }
 
 section.tutorial .tutorial__slogan span {
+  font-family: "Raleway-Light", sans-serif;
   color: #1dc5f6;
 }
+
+section.tutorial .tutorial__slogan span.spec {
+  font-family: "Raleway-Bold", sans-serif;
+}
+
 
 section.tutorial .tutorial-item {
   display: -webkit-box;
